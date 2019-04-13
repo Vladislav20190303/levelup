@@ -1,0 +1,143 @@
+body {
+    width: 100%;
+    height: 100%;
+    font-family: "Open Sans";
+}
+
+.form {
+    background-image: url("../images/bg2.png");
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    padding: 300px 454px;
+
+}
+
+.title {
+    font-weight: 400;
+    color: grey;
+}
+
+#our-form {
+    background: rgba(255, 255, 255, .3);
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 25px 75px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 500px;
+    width: 100%;
+    height: 400px;
+    margin-bottom: 20px;
+
+}
+
+#our-form > label {
+    margin: 10px;
+}
+
+.form-img {
+    position: absolute;
+    top: -25px;
+    left: 45%;
+    bottom: 0;
+}
+
+#fname, #password {
+    background-color: white;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 10px 30px;
+    width: 100%;
+    height: auto;
+    border: none;
+    position: absolute;
+    top: 0;
+}
+
+#confirm {
+    background-color: #2e6371;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 10px 30px;
+    width: 100%;
+    height: auto;
+    border: none;
+    color: white;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.name {
+    position: relative;
+    width: 100%;
+}
+
+.fa-user-alt {
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    z-index: 1;
+    font-size: 18px;
+    color: grey;
+}
+
+.login {
+    position: relative;
+    width: 100%;
+}
+
+.fa-lock {
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    z-index: 1;
+    font-size: 18px;
+    color: grey;
+}
+
+.check {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.me {
+    color: white;
+    font-weight: 300;
+}
+
+.forgot {
+    color: white;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+.mind {
+    border-top: 2px solid white;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px 0;
+    max-width: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.mind a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    margin-left: 5px;
+    font-weight: 700;
+}
+
+
+
+
